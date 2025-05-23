@@ -12,12 +12,16 @@ const links = [
     name: '03.position_parameter',
     path: '01_gsap_express/03.position_parameter',
   },
+  {
+    name: '04.animated_buttons',
+    path: '01_gsap_express/04.animated_buttons',
+  },
 ]
 </script>
 
 <template>
   <UContainer>
-    <div class="flex flex-wrap gap-2">
+    <div class="grid gap-2">
       <UButton v-for="link in links" :key="link.path" class="button" :to="link.path">
         {{ link.name }}
       </UButton>
