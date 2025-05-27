@@ -16,6 +16,10 @@ const links = [
     name: '04.animated_buttons',
     path: '01_gsap_express/04.animated_buttons',
   },
+  {
+    name: '05.animated_buttons_in_vFor',
+    path: '01_gsap_express/05.animated_buttons_in_vFor',
+  },
 ]
 </script>
 
